@@ -9,6 +9,7 @@ namespace PrimerParcial.DAL
     public class Contexto: DbContext
     {
         public DbSet<Moras> Moras { get; set; }
+        public DbSet<MorasDetalle> MorasDetalle { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

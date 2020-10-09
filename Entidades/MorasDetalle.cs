@@ -11,5 +11,7 @@ namespace PrestamosWPF.Entidades
         public int MoraId { get; set; }
         public int PrestamoId  { get; set; }
         public decimal Valor { get; set; }
+        
+
     }
 }
